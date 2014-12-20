@@ -8,4 +8,8 @@ How is the staging area different from the working directory and the repository?
 
 How can you use the staging area to make sure you have one commit per logical change?
 
-	You can use git diff --staged to see the difference between staging and the last file version, and that way you can check to make sure that you have one commit per logical change. 
+	You can use git diff --staged to see the difference between staging and the last file version, and that way you can check to make sure that you have one commit per logical change.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	Creating a new branch would be helpful in a situation where you want to try out an experimental feature, such as creating a more easy or more difficult mode in the asteroids game. If the test wasn't what you wanted, the master branch is still there, and the branch is saved as well. 
