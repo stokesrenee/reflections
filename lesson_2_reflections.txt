@@ -1,15 +1,35 @@
 What happens when you initialize a repository? Why do you need to do it?
 	
-	When you initialize a repository, you create the .git repository. You need to do it because that's where the commit history is stored.
+	When you initialize a repository, you create the .git
+	repository. You need to do it because that's where 
+	the commit history is stored.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
-	The staging area stores information about what will go into your next commit. The working directory is a single checkout of one version of the project, and the repository is where Git stores the metadata for the project. I think it's useful to get your files exactly how you want them before you commit.
+	The staging area stores information about what will
+	go into your next commit. The working directory is 
+	a single checkout of one version of the project, 
+	and the repository is where Git stores the metadata 
+	for the project. I think it's useful to get your 
+	files exactly how you want them before you commit.
 
 How can you use the staging area to make sure you have one commit per logical change?
 
-	You can use git diff --staged to see the difference between staging and the last file version, and that way you can check to make sure that you have one commit per logical change.
+	You can use git diff --staged to see the difference 
+	between staging and the last file version, and that 
+	way you can check to make sure that you have one 
+	commit per logical change.
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
-	Creating a new branch would be helpful in a situation where you want to try out an experimental feature, such as creating a more easy or more difficult mode in the asteroids game. If the test wasn't what you wanted, the master branch is still there, and the branch is saved as well. 
+	Creating a new branch would be helpful in a situation 
+	where you want to try out an experimental feature, 
+	such as creating a more easy or more difficult mode 
+	in the asteroids game. If the test wasn't what you 
+	wanted, the master branch is still there, and the 
+	branch is saved as well.
+
+How do the diagrams help you visualize the branch structure? 
+	The diagrams show where the branches start and end,
+	and also whether there are any branches that are 
+	unreachable.
