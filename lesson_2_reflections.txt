@@ -42,3 +42,12 @@ What is the result of merging two branches together? Why do we represent it in t
 	representation clearly shows the two branches (color 
 	coded), and after they merge it shows one again. 
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	The pros of Git's automatic merging is that it's really
+	easy to merge branches when the changes made were in
+	different areas. If the changes were in the same area,
+	a confilct arises so a manual merge is needed. This is 
+	good because if Git tried to do an automatic merge for
+	this case, it may choose the wrong change to save. 
+
