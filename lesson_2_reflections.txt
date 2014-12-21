@@ -33,3 +33,12 @@ How do the diagrams help you visualize the branch structure?
 	The diagrams show where the branches start and end,
 	and also whether there are any branches that are 
 	unreachable.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	The result of merging two branches together is that
+	all the commits done in both branches show up in the
+	new master. They are in time stamp order. The 
+	representation clearly shows the two branches (color 
+	coded), and after they merge it shows one again. 
+
