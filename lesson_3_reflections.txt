@@ -1,0 +1,4 @@
+When would you want to use a remote repository rather than keeping all your work local?
+  If you are adding commits from another computer, or if 
+  someone else is adding to your file, you would use a 
+  remote repository.
